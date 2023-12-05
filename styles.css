@@ -101,9 +101,22 @@ button:hover {
 #resultdata {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* Three columns in each row */
-    gap: 20px
+    gap: 20px;
 }
 
+/* Media query for medium-sized screens */
+@media screen and (max-width: 768px) {
+    #resultdata {
+        grid-template-columns: repeat(2, 1fr); /* Two columns in each row for medium screens */
+    }
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 480px) {
+    #resultdata {
+        grid-template-columns: 1fr; /* Single column for smaller screens */
+    }
+}
 #img {
     width: 100%;
     height: auto;
