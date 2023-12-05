@@ -3,11 +3,6 @@
 ## Project Overview
 This project serves as a submission for the Jr. Software Engineer Evaluation Test at Metta Social. The objective was to develop a web page featuring a basic search bar to identify countries associated with a particular currency.
 
-## Task Details
-- **Level:** Easy
-- **Deadline:** Submission by Sunday, 26th Nov 23, 7PM
-- **Email Submission:** Neha.jadhav@mettasocial.com
-
 ## Requirements
 The requirements were as follows:
 - Develop a simple application ready to run locally.
